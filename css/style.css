@@ -3326,10 +3326,15 @@ input[type="button"].btn-block {
   opacity: 0;
 }
 
-.collapse:not(.show) {
+/* .collapse:not(.show) {
+  display: none;
+} */
+.navbar-collapse {
   display: none;
 }
-
+.navbar-collapse.show {
+  display: block;
+}
 .collapsing {
   position: relative;
   height: 0;
@@ -4658,9 +4663,6 @@ input[type="button"].btn-block {
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-  }
-  .navbar-expand-sm .navbar-toggler {
-    display: none;
   }
 }
 
