@@ -3329,7 +3329,12 @@ input[type="button"].btn-block {
 .collapse:not(.show) {
   display: none;
 }
-
+/* .navbar-collapse {
+  display: none;
+}
+.navbar-collapse.show {
+  display: block;
+} */
 .collapsing {
   position: relative;
   height: 0;
@@ -12660,22 +12665,7 @@ textarea.form-control {
   justify-content: center;
   align-items: center;
   visibility: hidden;
-  /* width: 96px;
-  height: 96px;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
-  box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
-  border-radius: 16px;
-  opacity: 0;
-  
-  -webkit-transition: opacity 0.2s ease-out, visibility 0s linear 0.2s;
-  -o-transition: opacity 0.2s ease-out, visibility 0s linear 0.2s;
-  transition: opacity 0.2s ease-out, visibility 0s linear 0.2s;*/
+
   z-index: 1000;
 }
 
